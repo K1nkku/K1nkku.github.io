@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Contact</title>
+</head>
+<body>
+    <div class="menu_icon">
+        <div class="icon_line"></div>
+    </div>
+    <nav class="menu">
+        <div class="logo">
+            <img src="./img/logo_blue.png" alt="Logo du site" />
+        </div>
+        <ul class="menu_main">
+            <li class="menu_cat"><a href="index.html">Accueil</a><div class="line"></div></li>
+            <li class="menu_cat"><a href="#">Curriculum Vitae</a><div class="line"></div></li>
+            <li class="menu_cat"><a href="">L'entreprise</a><div class="line"></div></li>
+            <li class="menu_cat"><a href="">Epreuve E4 | Conception et maintenance de solutions informatiques</a><div class="line"></div></li>
+            <li class="menu_cat"><a href="">Epreuve E6 | Présentation orale</a><div class="line"></div></li>
+            <li class="menu_cat"><a href="veille_tech.html">Veille Techno. | Les moteurs de jeux</a><div class="line"></div></li>
+            <!--<ul class="sous_menu">
+            <li><a href="#">Unity</a></li>
+            <li><a href="#">Unreal Engine</a></li>
+            <li><a href="#">[BONUS] Les p'tites pépites !</a><div class="line"></div></li>
+        </ul>-->
+            <li class="menu_cat"><a href="#">Veille Juridique | Les contrats</a><div class="line"></div></li>
+            <!--<ul class="sous_menu">
+            <li><a href="#">Les contrats de sous traitance</a></li>
+            <li><a href="#">Les contrats d'hébergement</a><div class="line"></div></li>
+        </ul>-->
+            <li class="menu_cat"><a href="contact.html">Contact</a><div class="line"></div></li>
+        </ul>
+        <div class="menu_close">
+            <img src="./img/menu_close_icon_blue.png" alt="Close menu icon" />
+        </div>
+    </nav>
+    <div class="contact_title">
+        <h1 class="title">Me contacter</h1>
+        <svg class="wave_wrapper" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path class="wave" fill="#c1e0ff" fill-opacity="1" d="M0,288L120,272C240,256,480,224,720,218.7C960,213,1200,235,1320,245.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+        </svg>
+    </div>
+    <div class="content contact_wrapper">
+        <p>Vous avez des remarques, des suggestions ou même des questions à poser ? N'hésitez pas à prendre contact à l'aide du formulaire ci-dessous :</p>
+        <form class="contact_form" method=GET action="mailto:contact@portfoliocdrsio.com" enctype="text/plain">
+            <div class="column">
+                <div class="inputfield">
+                    <input class="normal" placeholder="Votre nom..." type="text" name="nom" />
+                    <input class="normal" placeholder="Votre prénom..." type="text" name="prenom" />
+                    <input class="longer" placeholder="Votre adresse mail..." type="text" name="email" />
+                </div>
+                <div class="msg_content">
+                    <textarea placeholder="Votre message..." name="msg"></textarea>
+                </div>
+            </div>
+            <div class="send_mail">
+                <button>Envoyer</button>
+            </div>
+        </form>
+    </div>    
+    <footer class="footer">
+        <p><a href="index.html">Accueil</a> | <a href="#">Curriculum Vitae</a> | <a href="#">Le BTS SIO</a> | <a href="#">Epreuve E4</a> | <a href="#">Epreuve E6</a> | <a href="veille_tech.html">Veille Technologique</a> | <a href="#">Veille Juridique</a> | <a href="contact.html">Contact</a></p>
+        <div class="separator"></div>
+        <p>Copyright © 2019-2020 DRIVET Cécile - Tous droits réservés</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./jquerymenu.js"></script>
+</body>
+</html>
