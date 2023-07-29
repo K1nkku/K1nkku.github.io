@@ -88,7 +88,7 @@ body {
     z-index:1;
 }
 
-.menu_main {
+.menu_main, .sous_menu {
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -111,7 +111,7 @@ body {
     cursor: pointer;
 }
 
-.menu_main li a {
+.menu_main li a, .sous_menu li a {
     color: #c1e0ff;
     text-decoration: none;
 }
