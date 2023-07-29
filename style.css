@@ -94,7 +94,7 @@ body {
     margin: 0px;
     font-family: arial;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
     position: absolute;
     width: 60%;
     top: 50%;
@@ -116,6 +116,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: arial;
+    font-size: 0.85vw;
 }
 
 .menu_main li a, .sous_menu li a {
