@@ -117,6 +117,7 @@ body {
     margin: 0px;
     font-family: arial;
     font-size: 0.85vw;
+    text-align: left;
 }
 
 .menu_main li a, .sous_menu li a {
